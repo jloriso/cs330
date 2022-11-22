@@ -23,34 +23,40 @@ You must have 'pyinstaller' installed before you can complete set up.
 ### Configuration ###
 
 1. Clone the repository:
-'''
+
+```
 $ git clone https://github.com/jloriso/cs330.git
-'''
+```
 
 2. Make sure all the unit tests pass:
-'''
+
+```
 $ pyinstaller --version
-'''
+```
 
 3. If pyinstaller is not installed then:
-'''
+
+```
 $ pip install pyinstaller
-'''
+```
 
 4. Build the executable:
-'''
+
+```
 $ pyinstaller.exe --onefile project.py
-'''
+```
 
 5. Change the directory:
-'''
+
+```
 $ cd dist
-'''
+```
 
 6. Run the executable:
-'''
+
+```
 $ "project.exe"
-'''
+```
 
 You can select for the computer to randomly generate numbers to try and break the lock
 or you can select to manual break the lock
