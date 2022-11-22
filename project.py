@@ -67,7 +67,7 @@ def tester():
             print(tap)
             if unlock in tap:
                 status = "Unlocked!"
-                print("It took " + str((Ct * 12)) + " entries till Lock was broken!")
+                print("It took " + str((Ct * 24)) + " entries till Lock was broken!")
             tap = ""
             Ct = Ct + 1
 
