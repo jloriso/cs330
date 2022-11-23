@@ -7,7 +7,9 @@ This repository contains Python code for Security Device that uses a FSM.
 Here is the original assignment:
 (http://cs.iit.edu/~virgil/cs330/mail.fall2022/pa.html).
 
-This code implements a FSM that has 2 states. It unlocks when the digit 1 is in the input and locks when the digit is 4.
+This code implements a FSM that has 2 states. It unlocks when the pin is inputted with the digit 1 following and locks when the last digit is 4.
+The pin is 20489(1 or 4)
+The device is automatically set to lock on initial boot.
 
 The program discards any other inputs whether it be 
 alphabet characters or special characters.
@@ -59,7 +61,7 @@ $ "project.exe"
 ```
 
 You can select for the computer to randomly generate numbers to try and break the lock
-or you can select to manual break the lock
+or you can select to manually break the lock
 
 For manual enter characters from the keyboard follow by Enter/Return
 The application will consume the characters and print 'Lock'/'Unlock' as it encounters 4 or 1 respectively.
