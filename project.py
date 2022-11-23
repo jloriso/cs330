@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import random
 
 NO_OF_CHARS = 500
@@ -170,5 +169,4 @@ def main():
         elif inp == "3":
             loop = False
 
->>>>>>> 9588c2b542676b9a59d952da3454274ca8304e1a
 main()
